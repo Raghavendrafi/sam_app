@@ -12,8 +12,10 @@
         <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
         sample application.
       </h2>
-      <%= link_to "Sign Up Now", '#', class: "btn btn-lg btn-primary"%>
-  </div>
-  <%= link_to image_tag("rails.png", alt: "Rails Logo"),'http://rubyonrails.org'%>
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+        <!--<a href="#" class="btn btn-lg btn-primary"><h4>Sign up now!</h4></a>-->
+    </div>
+    <%= link_to image_tag("rails.png", alt: "Rails Logo")%></br>
+    <%= link_to image_tag("kitten.jpg", alt: "Kitten Image")%>
   </body>
 </html>
